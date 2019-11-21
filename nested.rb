@@ -39,6 +39,7 @@ end
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
+          
         }
      }
 end
@@ -81,6 +82,9 @@ def adding_matz
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
+          
+          another_hash = {:yukihiro_matsumoto => {:known_for => "Ruby",:languages => ["LISP, C"]}}
+    	  another_hash.merge(programmer_hash)
         }
      }
 
